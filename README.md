@@ -85,7 +85,7 @@ Statistika deskriptif untuk fitur non_numerik:
 - Fitur Veg_Non: Terdiri dari 2 nilai unik (Top: veg)
 - Fitur Describe: Terdiri dari 397 nilai unik (Top: riety of rice)
 
-![c_type]https://github.com/Andriansyah2501/SistemRekomendasi/blob/main/Image%20Asset/c_type.png
+![c_type](https://github.com/Andriansyah2501/SistemRekomendasi/blob/main/Image%20Asset/c_type.png?raw=true)
 
 Gambar 1. Distribution of Cuisine Type
 
