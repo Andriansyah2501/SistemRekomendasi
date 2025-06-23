@@ -85,13 +85,13 @@ Statistika deskriptif untuk fitur non_numerik:
 - Fitur Veg_Non: Terdiri dari 2 nilai unik (Top: veg)
 - Fitur Describe: Terdiri dari 397 nilai unik (Top: riety of rice)
 
-![c_type](https://github.com/mfathul21/food-recomendations/blob/main/assets/c_type.jpg?raw=true)
+![c_type](https://github.com/Andriansyah2501/SistemRekomendasi/tree/main/Image%20Asset)c_type.jpg?raw=true)
 
 Gambar 1. Distribution of Cuisine Type
 
 Pada Gambar 1, tipe masakan indian, healthy food, dan dessert merupakan *top* 3 untuk tipe masakan pada data. Selain itu, perhatikanlah terdapat nilai yang *double* yaitu Korean sehingga perlu ditinjau kembali mengapa demikian pada tahap *Data Preparation*.
 
-![veg_non](https://github.com/mfathul21/food-recomendations/blob/main/assets/veg_non.jpg?raw=true)
+![veg_type](https://github.com/Andriansyah2501/SistemRekomendasi/tree/main/Image%20Asset)veg_type.jpg?raw=true)
 
 Gambar 2. Distribution of Vegetarian / Not
 
@@ -112,7 +112,7 @@ Berdasarkan Gambar 2, mayoritas makanan dari data yang digunakan merupakan masak
 
 Dalam data, terdapat 511 baris data untuk fitur User_ID dan Food_ID, namun rentang nilai untuk masing-masing hanya mencakup 1 hingga 100 dan 1 hingga 309. Hal ini mengindikasikan bahwa beberapa pelanggan memberikan rating lebih dari sekali, begitu pula dengan makanan yang mendapatkan rating lebih dari sekali. Selain itu, fitur Rating menampilkan skala nilai dari 1 (terendah) hingga 10 (tertinggi).
 
-![ratings](https://github.com/mfathul21/food-recomendations/blob/main/assets/ratings.jpg?raw=true)
+![ratings](https://github.com/Andriansyah2501/SistemRekomendasi/tree/main/Image%20Asset)ratings.png?raw=true)
 
 Gambar 3. Distribution of Ratings
 
