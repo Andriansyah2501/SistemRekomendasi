@@ -91,7 +91,7 @@ Gambar 1. Distribution of Cuisine Type
 
 Pada Gambar 1, tipe masakan indian, healthy food, dan dessert merupakan *top* 3 untuk tipe masakan pada data. Selain itu, perhatikanlah terdapat nilai yang *double* yaitu Korean sehingga perlu ditinjau kembali mengapa demikian pada tahap *Data Preparation*.
 
-![veg_type](https://github.com/Andriansyah2501/SistemRekomendasi/tree/main/Image%20Asset)veg_type.jpg?raw=true)
+![veg_type](https://github.com/Andriansyah2501/SistemRekomendasi/blob/main/Image%20Asset/veg_non.png?raw=true)
 
 Gambar 2. Distribution of Vegetarian / Not
 
@@ -112,7 +112,7 @@ Berdasarkan Gambar 2, mayoritas makanan dari data yang digunakan merupakan masak
 
 Dalam data, terdapat 511 baris data untuk fitur User_ID dan Food_ID, namun rentang nilai untuk masing-masing hanya mencakup 1 hingga 100 dan 1 hingga 309. Hal ini mengindikasikan bahwa beberapa pelanggan memberikan rating lebih dari sekali, begitu pula dengan makanan yang mendapatkan rating lebih dari sekali. Selain itu, fitur Rating menampilkan skala nilai dari 1 (terendah) hingga 10 (tertinggi).
 
-![ratings](https://github.com/Andriansyah2501/SistemRekomendasi/tree/main/Image%20Asset)ratings.png?raw=true)
+![ratings](https://github.com/Andriansyah2501/SistemRekomendasi/blob/main/Image%20Asset/ratings.png?raw=true)
 
 Gambar 3. Distribution of Ratings
 
