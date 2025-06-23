@@ -224,5 +224,11 @@ Dalam proyek ini, dengan menggunakan *Root Mean Squared Error* (RMSE) sebagai me
 
 Gambar 4. Plot of RMSE Training & Validation
 
-Berdasarkan hasil *training* model dengan *learning rate* 0.005, ukuran *embedding* 100, *batch size* 16, dan *epoch* 100, diperoleh nilai *error* sekitar 0.30 pada data *train*, sedangkan pada data validasi sebesar 0.32. Nilai tersebut dianggap cukup bagus untuk sistem rekomendasi. Dengan memperhitungkan hasil evaluasi ini, dapat disimpulkan bahwa model rekomendasi dengan teknik *Collaborative Filtering* telah berhasil memenuhi tujuan proyek dengan mencapai nilai RMSE di bawah 0.35. Oleh karena itu, proyek ini dapat dikatakan berhasil dalam memberikan rekomendasi dengan akurasi yang baik, sesuai dengan preferensi pengguna berdasarkan data yang diberikan.
+1.Sistem rekomendasi makanan ini telah berhasil menghasilkan daftar makanan yang beragam, baik dari segi jenis masakan (Indian, Korean, French, dll), kategori makanan (healthy, dessert, soup), dan preferensi diet (vegetarian dan non-vegetarian).
+
+2.Mayoritas makanan yang disukai pengguna adalah vegetarian, yang menunjukkan bahwa sistem mengenali pola preferensi terhadap makanan yang lebih sehat atau berbasis nabati.
+
+3.sistem tetap menyertakan beberapa opsi non-vegetarian berkualitas tinggi dalam daftar rekomendasi utama, yang mencerminkan pendekatan seimbang dan inklusif terhadap kebutuhan pengguna.
+
+4.Rekomendasi yang dihasilkan cukup bervariasi dan kontekstual, cocok untuk diterapkan dalam platform layanan makanan, restoran digital, atau aplikasi diet yang mempertimbangkan preferensi personal.
 
