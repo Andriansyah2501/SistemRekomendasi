@@ -219,17 +219,6 @@ Setelah pelatihan model selesai, model akan digunakan dalam sistem rekomendasi u
 
 Dalam proyek ini, dengan menggunakan *Root Mean Squared Error* (RMSE) sebagai metrik evaluasi untuk mengevaluasi kinerja model rekomendasi. RMSE adalah metrik yang cocok digunakan untuk masalah prediksi, khususnya saat ingin mengukur seberapa dekat prediksi model dengan nilai sebenarnya. RMSE dihitung dengan mengambil akar kuadrat dari rata-rata dari selisih kuadrat antara nilai prediksi dan nilai sebenarnya. Formulanya adalah sebagai berikut:
 
-$$
-\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
-$$
-
-di mana:
-- $n$ adalah jumlah sampel data,
-- $y_i$ adalah nilai sebenarnya dari sampel ke-i, dan
-- $\hat{y}_i$ adalah nilai prediksi dari sampel ke-i.
-
-
-Dengan menggunakan metrik RMSE, kemampuan model dalam memprediksi nilai rating yang sebenarnya oleh pengguna dapat diukur. Semakin rendah nilai RMSE, semakin baik model dalam memprediksi nilai rating, yang mengindikasikan bahwa rekomendasi yang dihasilkan oleh sistem akan lebih akurat dan sesuai dengan preferensi pengguna. Oleh karena itu, kinerja model dievaluasi berdasarkan nilai RMSE yang dihasilkan pada data uji.
 
 ![metric_evaluasi](https://github.com/mfathul21/food-recomendations/blob/main/assets/model_metric.jpg?raw=true)
 
